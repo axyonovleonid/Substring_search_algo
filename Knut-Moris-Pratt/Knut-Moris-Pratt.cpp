@@ -56,11 +56,9 @@ void main()
 
 	char q[256];
 
-	cout << s << endl;
-
 	cout << "Введите подстроку для поиска:\n";
 	cin.getline(q, 256);
-	cout << q << endl;
+
 	int a, mas[n] = { 0 };
 	a = algorithm_KMP(s, q);
 	if (a == -1)
